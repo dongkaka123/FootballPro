@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|c:\\users\\admin88\\source\\repos\\footballpro\\footballpro\\gui\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|solutionrelative:footballpro\\gui\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|c:\\users\\admin88\\source\\repos\\footballpro\\footballpro\\gui\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|solutionrelative:footballpro\\gui\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|c:\\users\\admin88\\source\\repos\\footballpro\\footballpro\\gui\\san.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|solutionrelative:footballpro\\gui\\san.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|c:\\users\\admin88\\source\\repos\\footballpro\\footballpro\\gui\\san.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|solutionrelative:footballpro\\gui\\san.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|c:\\users\\admin88\\source\\repos\\footballpro\\footballpro\\gui\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|solutionrelative:footballpro\\gui\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|c:\\users\\admin88\\source\\repos\\footballpro\\footballpro\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|solutionrelative:footballpro\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|c:\\users\\admin88\\source\\repos\\footballpro\\footballpro\\gui\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|solutionrelative:footballpro\\gui\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|c:\\users\\admin88\\source\\repos\\footballpro\\footballpro\\gui\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|solutionrelative:footballpro\\gui\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|c:\\users\\admin88\\source\\repos\\footballpro\\footballpro\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4DD9685-3F14-4FF3-A9B9-B0BB6045151C}|FootballPro\\FootballPro.csproj|solutionrelative:footballpro\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 545,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryForm.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\CategoryForm.cs",
+              "RelativeDocumentMoniker": "FootballPro\\GUI\\CategoryForm.cs",
+              "ToolTip": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\CategoryForm.cs",
+              "RelativeToolTip": "FootballPro\\GUI\\CategoryForm.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwFwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:44:59.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\CategoryForm.cs",
+              "RelativeDocumentMoniker": "FootballPro\\GUI\\CategoryForm.cs",
+              "ToolTip": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\CategoryForm.cs [Design]",
+              "RelativeToolTip": "FootballPro\\GUI\\CategoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:44:57.687Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Service.cs",
+              "RelativeDocumentMoniker": "FootballPro\\GUI\\Service.cs",
+              "ToolTip": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Service.cs",
+              "RelativeToolTip": "FootballPro\\GUI\\Service.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAywFYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:37:53.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Service.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Service.cs",
+              "RelativeDocumentMoniker": "FootballPro\\GUI\\Service.cs",
+              "ToolTip": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Service.cs [Design]",
+              "RelativeToolTip": "FootballPro\\GUI\\Service.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:37:51.729Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "San.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\San.cs",
+              "RelativeDocumentMoniker": "FootballPro\\GUI\\San.cs",
+              "ToolTip": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\San.cs",
+              "RelativeToolTip": "FootballPro\\GUI\\San.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswE0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:05:30.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "San.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\San.cs",
+              "RelativeDocumentMoniker": "FootballPro\\GUI\\San.cs",
+              "ToolTip": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\San.cs [Design]",
+              "RelativeToolTip": "FootballPro\\GUI\\San.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:04:53.933Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "FootballPro\\GUI\\Home.Designer.cs",
+              "ToolTip": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Home.Designer.cs",
+              "RelativeToolTip": "FootballPro\\GUI\\Home.Designer.cs",
+              "ViewState": "AgIAAP4BAAAAAAAAAADwvwACAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:59:13.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Home.cs",
+              "RelativeDocumentMoniker": "FootballPro\\GUI\\Home.cs",
+              "ToolTip": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Home.cs",
+              "RelativeToolTip": "FootballPro\\GUI\\Home.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:56:00.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Home.cs",
+              "RelativeDocumentMoniker": "FootballPro\\GUI\\Home.cs",
+              "ToolTip": "C:\\Users\\ADMIN88\\source\\repos\\FootballPro\\FootballPro\\GUI\\Home.cs [Design]",
+              "RelativeToolTip": "FootballPro\\GUI\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:55:52.684Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 99,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
