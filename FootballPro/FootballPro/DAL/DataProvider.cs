@@ -16,7 +16,7 @@ namespace FootballPro.DAL
 
         private DataProvider() { }
 
-        private string connectionSTR = "Data Source=LAPTOP-70RJA2GI\\SQLSERVER2022DEV;Database=FootballProData;User Id=sa;Password=Tongdong123@;";
+        private string connectionSTR = "Data Source=COUT;Initial Catalog=FootballProData;User ID=sa;Password=123;";
 
         // Thực thi một câu lệnh SQL SELECT và trả về kết quả dưới dạng DataTable
         public DataTable ExecuteQuery(string query, object[] parameter = null)
