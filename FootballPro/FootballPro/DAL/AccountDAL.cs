@@ -122,7 +122,7 @@ namespace FootballPro.DAL
 
         public bool UpdateAccount(string userName, string displayName, int type)
         {
-            string query = string.Format("UPDATE Account SET displayName = N'{1}', type = {2} WHERE UserName = N'{0}' ", userName, displayName, type);
+            string query = string.Format("UPDATE Account SET displayName = N'{1}', type =N'{2}' WHERE UserName = N'{0}' ", userName, displayName, type);
             int result = DataProvider.Instance.ExecuteNonQuery(query);
 
             return result > 0;

@@ -11,8 +11,15 @@ namespace FootballPro.DAL
 
         public static BillInfoDAL Instance
         {
-            get { if (instance == null) instance = new BillInfoDAL(); return instance; }
-            private set { BillInfoDAL.instance = value; }
+            get 
+            { 
+                if (instance == null) instance = new BillInfoDAL(); 
+                return instance; 
+            }
+            private set 
+            { 
+                BillInfoDAL.instance = value; 
+            }
         }
 
         public BillInfoDAL() { }

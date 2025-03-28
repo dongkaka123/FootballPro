@@ -193,7 +193,7 @@ namespace FootballPro
             this.pnlHome.Location = new System.Drawing.Point(2, 2);
             this.pnlHome.Margin = new System.Windows.Forms.Padding(2);
             this.pnlHome.Name = "pnlHome";
-            this.pnlHome.Size = new System.Drawing.Size(273, 111);
+            this.pnlHome.Size = new System.Drawing.Size(273, 122);
             this.pnlHome.TabIndex = 4;
             this.pnlHome.Click += new System.EventHandler(this.ChangeForm_Click);
             this.pnlHome.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHome_Paint);
@@ -215,10 +215,10 @@ namespace FootballPro
             // 
             this.pnlAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(147)))), ((int)(((byte)(250)))));
             this.pnlAdmin.Controls.Add(this.lblAdmin);
-            this.pnlAdmin.Location = new System.Drawing.Point(2, 117);
+            this.pnlAdmin.Location = new System.Drawing.Point(2, 128);
             this.pnlAdmin.Margin = new System.Windows.Forms.Padding(2);
             this.pnlAdmin.Name = "pnlAdmin";
-            this.pnlAdmin.Size = new System.Drawing.Size(273, 113);
+            this.pnlAdmin.Size = new System.Drawing.Size(273, 124);
             this.pnlAdmin.TabIndex = 3;
             this.pnlAdmin.Click += new System.EventHandler(this.ChangeForm_Click);
             this.pnlAdmin.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlAdmin_Paint);
@@ -240,7 +240,7 @@ namespace FootballPro
             // 
             this.pnlUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(147)))), ((int)(((byte)(250)))));
             this.pnlUser.Controls.Add(this.lblUser);
-            this.pnlUser.Location = new System.Drawing.Point(2, 234);
+            this.pnlUser.Location = new System.Drawing.Point(2, 256);
             this.pnlUser.Margin = new System.Windows.Forms.Padding(2);
             this.pnlUser.Name = "pnlUser";
             this.pnlUser.Size = new System.Drawing.Size(273, 117);
@@ -264,7 +264,7 @@ namespace FootballPro
             // 
             this.pnlOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(147)))), ((int)(((byte)(250)))));
             this.pnlOrder.Controls.Add(this.lblOrder);
-            this.pnlOrder.Location = new System.Drawing.Point(2, 355);
+            this.pnlOrder.Location = new System.Drawing.Point(2, 377);
             this.pnlOrder.Margin = new System.Windows.Forms.Padding(2);
             this.pnlOrder.Name = "pnlOrder";
             this.pnlOrder.Size = new System.Drawing.Size(273, 128);
@@ -288,7 +288,7 @@ namespace FootballPro
             // 
             this.pnlCheckOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(147)))), ((int)(((byte)(250)))));
             this.pnlCheckOut.Controls.Add(this.lblCheckOut);
-            this.pnlCheckOut.Location = new System.Drawing.Point(2, 487);
+            this.pnlCheckOut.Location = new System.Drawing.Point(2, 509);
             this.pnlCheckOut.Margin = new System.Windows.Forms.Padding(2);
             this.pnlCheckOut.Name = "pnlCheckOut";
             this.pnlCheckOut.Size = new System.Drawing.Size(273, 122);
@@ -313,10 +313,10 @@ namespace FootballPro
             // 
             this.pnlHelp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(147)))), ((int)(((byte)(250)))));
             this.pnlHelp.Controls.Add(this.lblHelp);
-            this.pnlHelp.Location = new System.Drawing.Point(2, 613);
+            this.pnlHelp.Location = new System.Drawing.Point(2, 635);
             this.pnlHelp.Margin = new System.Windows.Forms.Padding(2);
             this.pnlHelp.Name = "pnlHelp";
-            this.pnlHelp.Size = new System.Drawing.Size(273, 126);
+            this.pnlHelp.Size = new System.Drawing.Size(273, 123);
             this.pnlHelp.TabIndex = 4;
             this.pnlHelp.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
@@ -508,7 +508,6 @@ namespace FootballPro
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý sân bóng";
-            this.Load += new System.EventHandler(this.Home_Load);
             this.Load += new System.EventHandler(this.Form02_Load);
             this.pnlHeader.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);

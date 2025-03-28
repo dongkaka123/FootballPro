@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccountForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblLoai = new System.Windows.Forms.Label();
             this.lblMatKhau = new System.Windows.Forms.Label();
             this.lblTenHienThi = new System.Windows.Forms.Label();
@@ -72,6 +72,10 @@
             this.pnlTitleBar = new System.Windows.Forms.Panel();
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
             this.label16 = new System.Windows.Forms.Label();
@@ -102,12 +106,6 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label22 = new System.Windows.Forms.Label();
             this.lblHome = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.pnlOrder.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pnlCheckOut.SuspendLayout();
@@ -123,6 +121,7 @@
             this.pnlTitleBar.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.panel8.SuspendLayout();
@@ -132,17 +131,16 @@
             this.flowLayoutPanel1.SuspendLayout();
             this.pnlHome.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblLoai
             // 
             this.lblLoai.AutoSize = true;
-            this.lblLoai.Font = new System.Drawing.Font("Paytone One", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblLoai.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblLoai.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblLoai.Location = new System.Drawing.Point(52, 484);
+            this.lblLoai.Location = new System.Drawing.Point(353, 207);
             this.lblLoai.Name = "lblLoai";
-            this.lblLoai.Size = new System.Drawing.Size(106, 52);
+            this.lblLoai.Size = new System.Drawing.Size(67, 32);
             this.lblLoai.TabIndex = 4;
             this.lblLoai.Text = "Loại:";
             this.lblLoai.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -151,11 +149,11 @@
             // lblMatKhau
             // 
             this.lblMatKhau.AutoSize = true;
-            this.lblMatKhau.Font = new System.Drawing.Font("Paytone One", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblMatKhau.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblMatKhau.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblMatKhau.Location = new System.Drawing.Point(52, 391);
+            this.lblMatKhau.Location = new System.Drawing.Point(14, 207);
             this.lblMatKhau.Name = "lblMatKhau";
-            this.lblMatKhau.Size = new System.Drawing.Size(192, 52);
+            this.lblMatKhau.Size = new System.Drawing.Size(127, 32);
             this.lblMatKhau.TabIndex = 3;
             this.lblMatKhau.Text = "Mật khẩu:";
             this.lblMatKhau.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -163,11 +161,11 @@
             // lblTenHienThi
             // 
             this.lblTenHienThi.AutoSize = true;
-            this.lblTenHienThi.Font = new System.Drawing.Font("Paytone One", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblTenHienThi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblTenHienThi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTenHienThi.Location = new System.Drawing.Point(52, 254);
+            this.lblTenHienThi.Location = new System.Drawing.Point(353, 106);
             this.lblTenHienThi.Name = "lblTenHienThi";
-            this.lblTenHienThi.Size = new System.Drawing.Size(227, 52);
+            this.lblTenHienThi.Size = new System.Drawing.Size(152, 32);
             this.lblTenHienThi.TabIndex = 2;
             this.lblTenHienThi.Text = "Tên hiển thị:";
             this.lblTenHienThi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -175,11 +173,11 @@
             // LoạTenTaiKhoan
             // 
             this.LoạTenTaiKhoan.AutoSize = true;
-            this.LoạTenTaiKhoan.Font = new System.Drawing.Font("Paytone One", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.LoạTenTaiKhoan.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.LoạTenTaiKhoan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.LoạTenTaiKhoan.Location = new System.Drawing.Point(52, 126);
+            this.LoạTenTaiKhoan.Location = new System.Drawing.Point(7, 109);
             this.LoạTenTaiKhoan.Name = "LoạTenTaiKhoan";
-            this.LoạTenTaiKhoan.Size = new System.Drawing.Size(262, 52);
+            this.LoạTenTaiKhoan.Size = new System.Drawing.Size(170, 32);
             this.LoạTenTaiKhoan.TabIndex = 1;
             this.LoạTenTaiKhoan.Text = "Tên tài khoản:";
             this.LoạTenTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -187,11 +185,11 @@
             // lblDoUong
             // 
             this.lblDoUong.AutoSize = true;
-            this.lblDoUong.Font = new System.Drawing.Font("Paytone One", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblDoUong.Font = new System.Drawing.Font("Palatino Linotype", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblDoUong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(118)))), ((int)(((byte)(253)))));
             this.lblDoUong.Location = new System.Drawing.Point(216, 6);
             this.lblDoUong.Name = "lblDoUong";
-            this.lblDoUong.Size = new System.Drawing.Size(254, 70);
+            this.lblDoUong.Size = new System.Drawing.Size(218, 59);
             this.lblDoUong.TabIndex = 0;
             this.lblDoUong.Text = "Tài khoản";
             this.lblDoUong.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -224,7 +222,7 @@
             this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(225)))), ((int)(((byte)(230)))));
             this.btnXoa.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(499, 600);
+            this.btnXoa.Location = new System.Drawing.Point(473, 327);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(150, 62);
             this.btnXoa.TabIndex = 6;
@@ -364,10 +362,10 @@
             // 
             this.cbLoaiTaiKhoan.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.cbLoaiTaiKhoan.FormattingEnabled = true;
-            this.cbLoaiTaiKhoan.Location = new System.Drawing.Point(314, 499);
+            this.cbLoaiTaiKhoan.Location = new System.Drawing.Point(359, 241);
             this.cbLoaiTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbLoaiTaiKhoan.Name = "cbLoaiTaiKhoan";
-            this.cbLoaiTaiKhoan.Size = new System.Drawing.Size(334, 40);
+            this.cbLoaiTaiKhoan.Size = new System.Drawing.Size(305, 40);
             this.cbLoaiTaiKhoan.TabIndex = 17;
             // 
             // txbMatKhau
@@ -375,30 +373,31 @@
             this.txbMatKhau.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txbMatKhau.Enabled = false;
             this.txbMatKhau.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMatKhau.Location = new System.Drawing.Point(314, 402);
+            this.txbMatKhau.Location = new System.Drawing.Point(13, 241);
             this.txbMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbMatKhau.Name = "txbMatKhau";
-            this.txbMatKhau.Size = new System.Drawing.Size(334, 39);
+            this.txbMatKhau.Size = new System.Drawing.Size(302, 39);
             this.txbMatKhau.TabIndex = 16;
+            this.txbMatKhau.TextChanged += new System.EventHandler(this.txbMatKhau_TextChanged);
             // 
             // txbTenHienThi
             // 
             this.txbTenHienThi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txbTenHienThi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTenHienThi.Location = new System.Drawing.Point(314, 268);
+            this.txbTenHienThi.Location = new System.Drawing.Point(359, 143);
             this.txbTenHienThi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbTenHienThi.Name = "txbTenHienThi";
-            this.txbTenHienThi.Size = new System.Drawing.Size(334, 39);
+            this.txbTenHienThi.Size = new System.Drawing.Size(305, 39);
             this.txbTenHienThi.TabIndex = 14;
             // 
             // txbTenTaiKhoan
             // 
             this.txbTenTaiKhoan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txbTenTaiKhoan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTenTaiKhoan.Location = new System.Drawing.Point(314, 137);
+            this.txbTenTaiKhoan.Location = new System.Drawing.Point(13, 143);
             this.txbTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbTenTaiKhoan.Name = "txbTenTaiKhoan";
-            this.txbTenTaiKhoan.Size = new System.Drawing.Size(334, 39);
+            this.txbTenTaiKhoan.Size = new System.Drawing.Size(302, 39);
             this.txbTenTaiKhoan.TabIndex = 13;
             this.txbTenTaiKhoan.TextChanged += new System.EventHandler(this.txbTenTaiKhoan_TextChanged);
             // 
@@ -407,7 +406,7 @@
             this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnThoat.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoat.Location = new System.Drawing.Point(292, 685);
+            this.btnThoat.Location = new System.Drawing.Point(284, 433);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(150, 62);
             this.btnThoat.TabIndex = 8;
@@ -420,7 +419,7 @@
             this.btnSua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(225)))), ((int)(((byte)(230)))));
             this.btnSua.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(292, 600);
+            this.btnSua.Location = new System.Drawing.Point(284, 327);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(150, 62);
             this.btnSua.TabIndex = 7;
@@ -433,7 +432,7 @@
             this.btnThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(225)))), ((int)(((byte)(230)))));
             this.btnThem.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(80, 600);
+            this.btnThem.Location = new System.Drawing.Point(82, 327);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(164, 62);
             this.btnThem.TabIndex = 5;
@@ -514,14 +513,12 @@
             // 
             this.btnFind.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(191)))), ((int)(((byte)(99)))));
             this.btnFind.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnFind.Image = ((System.Drawing.Image)(resources.GetObject("btnFind.Image")));
             this.btnFind.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFind.Location = new System.Drawing.Point(28, 31);
             this.btnFind.Name = "btnFind";
             this.btnFind.Size = new System.Drawing.Size(129, 45);
             this.btnFind.TabIndex = 19;
             this.btnFind.Text = "Tìm";
-            this.btnFind.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnFind.UseVisualStyleBackColor = false;
             // 
             // dtgvAccount
@@ -529,23 +526,23 @@
             this.dtgvAccount.AllowUserToAddRows = false;
             this.dtgvAccount.AllowUserToDeleteRows = false;
             this.dtgvAccount.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvAccount.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvAccount.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dtgvAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvAccount.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvAccount.DefaultCellStyle = dataGridViewCellStyle6;
             this.dtgvAccount.Location = new System.Drawing.Point(27, 109);
             this.dtgvAccount.Name = "dtgvAccount";
             this.dtgvAccount.RowHeadersWidth = 51;
@@ -669,6 +666,61 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1705, 200);
             this.panel4.TabIndex = 17;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(80)))));
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1705, 200);
+            this.panel3.TabIndex = 15;
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Paytone One", 12F);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
+            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label7.Location = new System.Drawing.Point(1212, 104);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(351, 77);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Đăng xuất";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
+            this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label8.Location = new System.Drawing.Point(1212, 0);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(439, 77);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Thông tin tài khoản";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Paytone One", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(196)))));
+            this.label9.Image = ((System.Drawing.Image)(resources.GetObject("label9.Image")));
+            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label9.Location = new System.Drawing.Point(-1, 4);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(475, 70);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "Tống Văn Đông";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label15
             // 
@@ -1058,89 +1110,6 @@
             this.lblHome.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lblHome.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(80)))));
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1705, 200);
-            this.panel3.TabIndex = 15;
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Paytone One", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(1616, -7);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 74);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "x";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Paytone One", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label6.Location = new System.Drawing.Point(1555, 0);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 60);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "—";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label7
-            // 
-            this.label7.Font = new System.Drawing.Font("Paytone One", 12F);
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
-            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(1212, 104);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(351, 77);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Đăng xuất";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
-            this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label8.Location = new System.Drawing.Point(1212, 0);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(439, 77);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Thông tin tài khoản";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label9
-            // 
-            this.label9.Font = new System.Drawing.Font("Paytone One", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(196)))));
-            this.label9.Image = ((System.Drawing.Image)(resources.GetObject("label9.Image")));
-            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label9.Location = new System.Drawing.Point(-1, 4);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(475, 70);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "Tống Văn Đông";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // AccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -1174,6 +1143,7 @@
             this.pnlTitleBar.PerformLayout();
             this.pnlHeader.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.panel8.ResumeLayout(false);
@@ -1184,7 +1154,6 @@
             this.flowLayoutPanel1.ResumeLayout(false);
             this.pnlHome.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1263,8 +1232,6 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;

@@ -16,17 +16,14 @@ namespace FootballPro
     public static class UIHelper
     {
         public static Account userNameFromLogin;
-        public static int tableIDCheckOut;
-        public static int tableIDDatMon;
+        public static int sanIDCheckOut;
+        public static int sanIDDatSan;
         public static string panelClicked;
-        public static int tableIDSwitch;
-        public static int tableIDMerge;
 
         private static int _lastFormPositionX = -1;
         private static int _lastFormPositionY = -1;
         public static System.Windows.Forms.Timer GlobalTimer { get; private set; }
         public static string CurrentTime { get; private set; }
-
         static UIHelper()
         {
             GlobalTimer = new System.Windows.Forms.Timer();
@@ -68,6 +65,9 @@ namespace FootballPro
                     case "pnlAdmin":
                         newForm = new Admin();
                         break;
+                    case "pnlOrder":
+                        newForm = new Order();
+                        break;
                     case "pnlBan":
                         newForm = new San();
                         break;
@@ -75,7 +75,10 @@ namespace FootballPro
                         newForm = new AccountForm();
                         break;
                     case "pnlDichVu":
-                    
+                        newForm = new Service();
+                        break;
+                    case "pnlDanhMuc":
+                        newForm = new CategoryForm();
                         break;
                     default:
                         break;

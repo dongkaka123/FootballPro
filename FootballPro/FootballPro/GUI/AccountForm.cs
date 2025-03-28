@@ -256,5 +256,10 @@ namespace FootballPro
         {
 
         }
+
+        private void txbMatKhau_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

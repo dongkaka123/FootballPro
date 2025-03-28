@@ -338,6 +338,7 @@
             // 
             // pbDanhMuc
             // 
+            this.pbDanhMuc.Image = ((System.Drawing.Image)(resources.GetObject("pbDanhMuc.Image")));
             this.pbDanhMuc.Location = new System.Drawing.Point(192, 17);
             this.pbDanhMuc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pbDanhMuc.Name = "pbDanhMuc";
@@ -386,7 +387,8 @@
             // 
             // pbTaiKhoan
             // 
-            this.pbTaiKhoan.Location = new System.Drawing.Point(189, 23);
+            this.pbTaiKhoan.Image = ((System.Drawing.Image)(resources.GetObject("pbTaiKhoan.Image")));
+            this.pbTaiKhoan.Location = new System.Drawing.Point(192, 23);
             this.pbTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pbTaiKhoan.Name = "pbTaiKhoan";
             this.pbTaiKhoan.Size = new System.Drawing.Size(296, 246);

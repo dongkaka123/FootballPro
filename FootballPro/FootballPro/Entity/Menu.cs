@@ -5,30 +5,30 @@ namespace FootballPro.Entity
 {
     public class Menu
     {
-        private int iD;
-        private string name;
-        private int _idDanhMuc;
+        private string _serName;
+        private int count;
         private float _gia;
+        private float _tongTien;
 
-        public Menu(int iD, string name, int idDanhMuc, float gia)
+        public Menu(string serName, int count, float gia, float tongTien = 0)
         {
-            this.ID = iD;
-            this.Name = name;
-            this.idDanhMuc = idDanhMuc;
+            this.serName = serName;
+            this.Count = count;
             this.gia = gia;
+            this.tongTien = tongTien;
         }
 
         public Menu(DataRow row)
         {
-            this.ID = (int)row["ID"];
-            this.Name = row["Name"].ToString();
-            this.idDanhMuc = (int)row["idDanhMuc"];
-            this.gia = (float)Convert.ToDouble(row["gia"].ToString());
+            this.serName = row["Name"].ToString();
+            this.Count = (int)row["Count"];
+            this.gia = (float)Convert.ToDouble(row["Gia"].ToString());
+            this.tongTien = (float)Convert.ToDouble(row["TongTien"].ToString());
         }
 
-        public int ID { get => iD; set => iD = value; }
-        public string Name { get => name; set => name = value; }
-        public int idDanhMuc { get => idDanhMuc; set => idDanhMuc = value; }
+        public string serName { get => serName; set => serName = value; }
+        public int Count { get => count; set => count = value; }
         public float gia { get => gia; set => gia = value; }
+        public float tongTien { get => tongTien; set => tongTien = value; }
     }
 }

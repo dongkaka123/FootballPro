@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Service));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label10 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.lblDoUong = new System.Windows.Forms.Label();
@@ -40,6 +40,10 @@
             this.lblGia = new System.Windows.Forms.Label();
             this.pnlTitleBar = new System.Windows.Forms.Panel();
             this.pnlHeader = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.label2 = new System.Windows.Forms.Label();
@@ -81,14 +85,9 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.pnlTitleBar.SuspendLayout();
             this.pnlHeader.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -102,7 +101,6 @@
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDrinks)).BeginInit();
             this.panel10.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label10
@@ -145,7 +143,7 @@
             this.lblID.AutoSize = true;
             this.lblID.Font = new System.Drawing.Font("Paytone One", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblID.Location = new System.Drawing.Point(80, 93);
+            this.lblID.Location = new System.Drawing.Point(3, 93);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(69, 52);
             this.lblID.TabIndex = 1;
@@ -157,7 +155,7 @@
             this.lblTenMon.AutoSize = true;
             this.lblTenMon.Font = new System.Drawing.Font("Paytone One", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblTenMon.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTenMon.Location = new System.Drawing.Point(80, 190);
+            this.lblTenMon.Location = new System.Drawing.Point(3, 168);
             this.lblTenMon.Name = "lblTenMon";
             this.lblTenMon.Size = new System.Drawing.Size(174, 52);
             this.lblTenMon.TabIndex = 2;
@@ -169,7 +167,7 @@
             this.lblDanhMuc.AutoSize = true;
             this.lblDanhMuc.Font = new System.Drawing.Font("Paytone One", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblDanhMuc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblDanhMuc.Location = new System.Drawing.Point(79, 284);
+            this.lblDanhMuc.Location = new System.Drawing.Point(3, 248);
             this.lblDanhMuc.Name = "lblDanhMuc";
             this.lblDanhMuc.Size = new System.Drawing.Size(203, 52);
             this.lblDanhMuc.TabIndex = 3;
@@ -181,7 +179,7 @@
             this.lblGia.AutoSize = true;
             this.lblGia.Font = new System.Drawing.Font("Paytone One", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblGia.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblGia.Location = new System.Drawing.Point(79, 385);
+            this.lblGia.Location = new System.Drawing.Point(7, 325);
             this.lblGia.Name = "lblGia";
             this.lblGia.Size = new System.Drawing.Size(89, 52);
             this.lblGia.TabIndex = 4;
@@ -226,6 +224,61 @@
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(1710, 200);
             this.pnlHeader.TabIndex = 23;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(80)))));
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1710, 200);
+            this.panel1.TabIndex = 15;
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Paytone One", 12F);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
+            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label7.Location = new System.Drawing.Point(1212, 104);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(351, 77);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Đăng xuất";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
+            this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label8.Location = new System.Drawing.Point(1212, 0);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(439, 77);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Thông tin tài khoản";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Paytone One", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(196)))));
+            this.label9.Image = ((System.Drawing.Image)(resources.GetObject("label9.Image")));
+            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label9.Location = new System.Drawing.Point(-1, 4);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(475, 70);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "Tống Văn Đông";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -592,7 +645,7 @@
             this.panel9.Controls.Add(this.dtgvDrinks);
             this.panel9.Location = new System.Drawing.Point(279, 200);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(750, 758);
+            this.panel9.Size = new System.Drawing.Size(827, 758);
             this.panel9.TabIndex = 4;
             // 
             // txbFind
@@ -613,7 +666,7 @@
             this.btnFind.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFind.Location = new System.Drawing.Point(27, 28);
             this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(129, 57);
+            this.btnFind.Size = new System.Drawing.Size(129, 48);
             this.btnFind.TabIndex = 19;
             this.btnFind.Text = "Tìm";
             this.btnFind.UseVisualStyleBackColor = false;
@@ -623,28 +676,28 @@
             this.dtgvDrinks.AllowUserToAddRows = false;
             this.dtgvDrinks.AllowUserToDeleteRows = false;
             this.dtgvDrinks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvDrinks.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvDrinks.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgvDrinks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvDrinks.DefaultCellStyle = dataGridViewCellStyle8;
-            this.dtgvDrinks.Location = new System.Drawing.Point(27, 109);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvDrinks.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dtgvDrinks.Location = new System.Drawing.Point(7, 109);
             this.dtgvDrinks.Name = "dtgvDrinks";
             this.dtgvDrinks.RowHeadersWidth = 51;
             this.dtgvDrinks.RowTemplate.Height = 24;
-            this.dtgvDrinks.Size = new System.Drawing.Size(688, 637);
+            this.dtgvDrinks.Size = new System.Drawing.Size(813, 637);
             this.dtgvDrinks.TabIndex = 3;
             this.dtgvDrinks.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvDrinks_CellClick);
             // 
@@ -664,19 +717,19 @@
             this.panel10.Controls.Add(this.lblTenMon);
             this.panel10.Controls.Add(this.lblID);
             this.panel10.Controls.Add(this.lblDoUong);
-            this.panel10.Location = new System.Drawing.Point(1028, 200);
+            this.panel10.Location = new System.Drawing.Point(1105, 200);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(682, 758);
+            this.panel10.Size = new System.Drawing.Size(605, 758);
             this.panel10.TabIndex = 5;
             // 
             // cbDanhMuc
             // 
             this.cbDanhMuc.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.cbDanhMuc.FormattingEnabled = true;
-            this.cbDanhMuc.Location = new System.Drawing.Point(318, 284);
+            this.cbDanhMuc.Location = new System.Drawing.Point(227, 248);
             this.cbDanhMuc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbDanhMuc.Name = "cbDanhMuc";
-            this.cbDanhMuc.Size = new System.Drawing.Size(330, 40);
+            this.cbDanhMuc.Size = new System.Drawing.Size(335, 40);
             this.cbDanhMuc.TabIndex = 17;
             this.cbDanhMuc.SelectedIndexChanged += new System.EventHandler(this.cbDanhMuc_SelectedIndexChanged);
             // 
@@ -684,7 +737,7 @@
             // 
             this.txbGia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txbGia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbGia.Location = new System.Drawing.Point(318, 385);
+            this.txbGia.Location = new System.Drawing.Point(227, 328);
             this.txbGia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbGia.Name = "txbGia";
             this.txbGia.Size = new System.Drawing.Size(335, 39);
@@ -694,7 +747,7 @@
             // 
             this.txbTenMon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txbTenMon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTenMon.Location = new System.Drawing.Point(318, 190);
+            this.txbTenMon.Location = new System.Drawing.Point(227, 167);
             this.txbTenMon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbTenMon.Name = "txbTenMon";
             this.txbTenMon.Size = new System.Drawing.Size(335, 39);
@@ -705,7 +758,7 @@
             this.txbID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txbID.Enabled = false;
             this.txbID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbID.Location = new System.Drawing.Point(318, 103);
+            this.txbID.Location = new System.Drawing.Point(227, 103);
             this.txbID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbID.Name = "txbID";
             this.txbID.Size = new System.Drawing.Size(335, 39);
@@ -717,7 +770,7 @@
             this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnThoat.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoat.Location = new System.Drawing.Point(303, 582);
+            this.btnThoat.Location = new System.Drawing.Point(227, 545);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(150, 62);
             this.btnThoat.TabIndex = 8;
@@ -727,10 +780,10 @@
             // 
             // btnSua
             // 
-            this.btnSua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(225)))), ((int)(((byte)(230)))));
+            this.btnSua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(231)))), ((int)(((byte)(243)))));
             this.btnSua.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(303, 495);
+            this.btnSua.Location = new System.Drawing.Point(227, 435);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(150, 62);
             this.btnSua.TabIndex = 7;
@@ -740,10 +793,10 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(225)))), ((int)(((byte)(230)))));
+            this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(231)))), ((int)(((byte)(243)))));
             this.btnXoa.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(498, 495);
+            this.btnXoa.Location = new System.Drawing.Point(412, 435);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(150, 62);
             this.btnXoa.TabIndex = 6;
@@ -753,10 +806,10 @@
             // 
             // btnThem
             // 
-            this.btnThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(225)))), ((int)(((byte)(230)))));
+            this.btnThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(231)))), ((int)(((byte)(243)))));
             this.btnThem.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(101, 495);
+            this.btnThem.Location = new System.Drawing.Point(16, 435);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(164, 62);
             this.btnThem.TabIndex = 5;
@@ -764,93 +817,11 @@
             this.btnThem.UseVisualStyleBackColor = false;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(80)))));
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1710, 200);
-            this.panel1.TabIndex = 15;
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Paytone One", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(1616, -7);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 74);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "x";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Paytone One", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label6.Location = new System.Drawing.Point(1555, 0);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 60);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "—";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label7
-            // 
-            this.label7.Font = new System.Drawing.Font("Paytone One", 12F);
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
-            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(1212, 104);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(351, 77);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Đăng xuất";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Paytone One", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
-            this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label8.Location = new System.Drawing.Point(1212, 0);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(439, 77);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Thông tin tài khoản";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label9
-            // 
-            this.label9.Font = new System.Drawing.Font("Paytone One", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(196)))));
-            this.label9.Image = ((System.Drawing.Image)(resources.GetObject("label9.Image")));
-            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label9.Location = new System.Drawing.Point(-1, 4);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(475, 70);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "Tống Văn Đông";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Service
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(231)))), ((int)(((byte)(243)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1710, 958);
             this.Controls.Add(this.panel10);
@@ -865,6 +836,7 @@
             this.pnlTitleBar.ResumeLayout(false);
             this.pnlTitleBar.PerformLayout();
             this.pnlHeader.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
@@ -881,7 +853,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDrinks)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -939,8 +910,6 @@
         private System.Windows.Forms.Label lblAcountInfo;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;

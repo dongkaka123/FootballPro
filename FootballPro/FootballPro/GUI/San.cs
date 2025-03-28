@@ -55,6 +55,7 @@ namespace FootballPro
             txbID.DataBindings.Add(new Binding("Text", dtgvTable.DataSource, "ID", true, DataSourceUpdateMode.Never));
             txbTenBan.DataBindings.Add(new Binding("Text", dtgvTable.DataSource, "Name", true, DataSourceUpdateMode.Never));
             cbTrangThai.DataBindings.Add(new Binding("Text", dtgvTable.DataSource, "Status", true, DataSourceUpdateMode.Never));
+            txbLocation.DataBindings.Add(new Binding("Text", dtgvTable.DataSource, "Location", true, DataSourceUpdateMode.Never));
         }
 
         private void lblHiden_Click(object sender, EventArgs e)
@@ -104,8 +105,9 @@ namespace FootballPro
         {
             string name = txbTenBan.Text;
             string status = "Trống";
+            string location = txbLocation.Text;
 
-            if (SanDAL.Instance.InsertSan(name, status))
+            if (SanDAL.Instance.InsertSan(name, status,location))
             {
                 MessageBox.Show("Thêm sân thành công!");
                 loadListSan();
@@ -122,10 +124,12 @@ namespace FootballPro
 
         private void btnSua_Click(object sender, EventArgs e)
         {
+            string location = txbLocation.Text;
             string name = txbTenBan.Text;
             int id = Convert.ToInt32(txbID.Text);
 
-            if (SanDAL.Instance.UpdateSan(name, id))
+
+            if (SanDAL.Instance.UpdateSan(name, id, location))
             {
                 MessageBox.Show("Sửa sân thành công!");
                 loadListSan();

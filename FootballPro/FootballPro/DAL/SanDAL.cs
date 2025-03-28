@@ -81,17 +81,17 @@ namespace FootballPro.DAL
 
         }
         // Các hàm thêm, sửa, xóa bàn 
-        public bool InsertSan(string name, string status)
+        public bool InsertSan(string name, string status,string location)
         {
-            string query=string.Format("INSERT San (name,status) VALUES (N'{0}',N'{1}')",name,status);
+            string query=string.Format("INSERT San (name,status,location) VALUES (N'{0}',N'{1}',N'{2}')",name,status,location);
             int result = DataProvider.Instance.ExecuteNonQuery(query);
 
             return result > 0;
         }
         // Sửa tên bàn 
-        public bool UpdateSan(string name,int id)
+        public bool UpdateSan(string name,int id,string location)
         {
-            string query = string.Format("UPDATE San SET name = N'{0}' WHERE id = {1}", name, id);
+            string query = string.Format("UPDATE San SET name = N'{0}', location = N'{1}' WHERE id = {2}", name, location, id);
             int result = DataProvider.Instance.ExecuteNonQuery(query);
 
             return result > 0;
